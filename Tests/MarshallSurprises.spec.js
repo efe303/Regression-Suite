@@ -1,19 +1,19 @@
-require('../Utilities/CustomLocators.js');
-var base = require("../Utilities/Base.js")
-var homePage = require("../Pages/Home.page.js");
-var surprises=require("../Pages/MarshallSurprises.page.js");
+// require('../Utilities/CustomLocators.js');
+// var base = require("../Utilities/Base.js")
+// var homePage = require("../Pages/Home.page.js");
+// var surprises=require("../Pages/MarshallSurprises.page.js");
 
 
-describe('Marshalls Webpage - Marshalls Surprises Link - Testing Suite',()=>{
-   beforeAll(function () {
-       base.navigateToHomeUrl();
-       homePage.closePopUp.click();
-       homePage.menu.click();
+// describe('Marshalls Webpage - Marshalls Surprises Link - Testing Suite',()=>{
+//    beforeAll(function () {
+//        base.navigateToHomeUrl();
+//        homePage.closePopUp.click();
+//        homePage.menu.click();
     
-       homePage.dropDown.get(1).click();
+//        homePage.dropDown.get(1).click();
    
-   });
-   describe('-01-Marshall Surprises Header Test Suite-',()=>{
+//    });
+//    describe('-01-Marshall Surprises Header Test Suite-',()=>{
           
            it('MS 001 - should display main heading "#MarshallsSurprise" correctly', () => {
                expect(surprises.h1MainHeading.isDisplayed()).toBe(true);
