@@ -22,11 +22,11 @@ var SignUpForEmail=function(){
   this.displayRequired=$$('.error-message.ng-binding');
   this.radioNo=$(" tbody > tr:nth-child(2) > td:nth-child(1) > input[type='radio']")
   this.Checkbox=$$('.checkbox> label');
-  this.signUpNowButton=$$('.btn.blue');
-  this.top=$('#top');
-  this.contactInfo=element(by.linkText('Contact Information'));
-  this.termsOfUse=element.all(by.linkText('/terms-of-use'));
-  this.socialMedia=$$('.header-banner-container a');
+  // this.signUpNowButton=$$('.btn.blue');
+  // // this.top=$('#top');
+  // // this.contactInfo=element(by.linkText('Contact Information'));
+  // // this.termsOfUse=element.all(by.linkTesxt('/terms-of-use'));
+  // // this.socialMedia=$$('.header-banner-container a');
 };
 module.exports = new SignUpForEmail();
 
