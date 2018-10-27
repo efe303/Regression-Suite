@@ -226,7 +226,7 @@ describe('Marshalls Webpage - Marshalls Surprises Link - Testing Suite',()=>{
                         browser.ignoreSynchronization=true;
                         browser.sleep(2000);
                         browser.switchTo().frame(browser.driver.findElement(by.css('.mr-iframe')));
-                        browser.sleep(2000);
+            
                     });
                 
                 });
