@@ -13,6 +13,7 @@ var SignUpForEmail=function(){
   this.signUpButton=element.all(by.buttonText('Sign Up'));  
   this.thanksForSignUp=$$('.message>h4');
   this.unsubscribe=element.all(by.linkText('Unsubscribe Here'));
+<<<<<<< HEAD
 //  this.unsubscribeInputBox=element(by.css("body > table > tbody > tr > td > form > p:nth-child(6) > input[type='text']"));
 //  this.radioYes=$("tbody > tr:nth-child(1) > td:nth-child(1) > input[type='radio']");
 //  this.submitUnsubscribe=$("input[type='image']");
@@ -27,6 +28,22 @@ var SignUpForEmail=function(){
 //  this.contactInfo=element(by.linkText('Contact Information'));
 //  this.termsOfUse=element.all(by.linkText('/terms-of-use'));
 //  this.socialMedia=$$('.header-banner-container a');
+=======
+  this.unsubscribeInputBox=element(by.css("body > table > tbody > tr > td > form > p:nth-child(6) > input[type='text']"));
+  this.radioYes=$("tbody > tr:nth-child(1) > td:nth-child(1) > input[type='radio']");
+  this.submitUnsubscribe=$("input[type='image']");
+  this.unsubscribeProcessed=$('tbody p');
+  this.privacyPolicy2=$$('.privacy-policy');
+  this.needToLeave=$$('.unsubscribe p');
+  this.displayRequired=$$('.error-message.ng-binding');
+  this.radioNo=$(" tbody > tr:nth-child(2) > td:nth-child(1) > input[type='radio']")
+  this.Checkbox=$$('.checkbox> label');
+  // this.signUpNowButton=$$('.btn.blue');
+  // // this.top=$('#top');
+  // // this.contactInfo=element(by.linkText('Contact Information'));
+  // // this.termsOfUse=element.all(by.linkTesxt('/terms-of-use'));
+  // // this.socialMedia=$$('.header-banner-container a');
+>>>>>>> 6c6afc3bfcf23d67abceff8f3f1919ceebc6f736
 };
 module.exports = new SignUpForEmail();
 
